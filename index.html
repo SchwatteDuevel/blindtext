@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blindtext Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Blindtext Generator</h1>
+    <section class="section-center">
+      <form class="lorem-form">
+        <label for="pNum">Paragraphs:</label>
+        <input type="number" id="pNum" name="pNum" aria-label="Number of paragraphs" placeholder="1" min="1" max="9">
+        <button class="btn" type="submit">Gimme that shit!</button>
+      </form>
+      <button class="btn-copy" id="btnCopy">Copy</button>
+      <article class="lorem-text"></article>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
